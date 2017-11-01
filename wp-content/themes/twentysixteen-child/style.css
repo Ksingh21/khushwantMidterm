@@ -11,3 +11,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain: twenty-fifteen-child
 */
+
+
+
+
+
+/* Remove footer */
+div.site-info {display: none;}
+
+/* Reduce blog post titles to 1.5rem */
+h2.entry-title {font-size: 1.5rem;}
+h1.entry-title {font-size: 1.5rem;}
+
+
+/* Reduce previous and next titles to 1rem 
+*/
+span.post-title {font-size: 1.0rem;}
+
+
+/* Remove metadata */
+footer.entry-footer {display: none;}
+
+/* horizontal bars */
+hr {color:#D0D0D0;}
